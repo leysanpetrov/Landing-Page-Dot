@@ -1,0 +1,428 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+.container {
+    width: 1170px; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .row {
+    display: flex;   
+}
+
+  .col-1 {
+    flex-basis: 8.33333333333%;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+  }
+
+.col-2 {
+    flex-basis: 16.6666666667%;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+.col-3 {
+    flex-basis: 25%;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+.col-4 {
+    flex-basis: 33.3333333333%;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+    text-align: center
+}
+.col-5 {
+    flex-basis: 41.6666666667%;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+.col-6 {
+    flex-basis: 50%;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+.col-7 {
+    flex-basis: 58.3333333333%;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+.col-8 {
+    flex-basis: 66.6666666667%;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+.col-9 {
+    flex-basis: 75%;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+.col-10 {
+    flex-basis: 83.3333333333%;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+.col-11 {
+    flex-basis: 91.6666666667%;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+.col-12 {
+    flex-basis: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+}
+
+ a {
+     color: black;
+     text-decoration: none;
+     padding-left: 8px;
+     padding-right: 8px;
+ }
+
+.clic {
+    text-transform: uppercase;
+    background: #ff153d;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+}
+
+.subscribe {
+text-align: center;
+}
+
+  .menu {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 45px;
+    padding-bottom: 70px;
+    
+}
+
+main {
+    background-color: #f3dde1;
+    
+    
+    
+}
+
+.fonttext {
+    font-size: 16px;
+    line-height: 24px;
+    font-style: regular;
+    padding-bottom: 38px;
+
+}
+
+.logo {
+    padding-top: 30px;
+    flex-grow: 1;
+    padding-top: 1,5;
+}
+
+.color {
+    display: flex;
+  }
+
+.com {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+.contact {
+    display: flex;
+  }
+
+header {
+    display: flex;
+  }
+
+h2 {
+    text-transform: uppercase;
+    text-align: center; 
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 100px;
+    
+  }
+ .features .container .row .col-12 h2 {
+    padding-bottom: 90px;
+ }
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 135px;
+    
+    
+  } 
+ 
+  h4 {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .reviews {
+      text-align: center;
+  }
+
+  .uppercase {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-top: 25px;
+    padding-bottom: 60px;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+.add-on {
+    display: inline-block;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ff153d;
+    color: white;
+    font-size: 16px;
+    width: 120px;
+    text-align: center;
+}
+
+.contact {
+    justify-content: flex-start;
+    padding-bottom: 30px;
+    padding-right: 85px;
+    padding-left: 200px;
+}
+
+.input {
+    height: 50px;
+}
+
+.color {
+    text-align: center;
+}
+
+.colortext {
+    color: #ff153d;
+    background-image: url(img/12.png);
+}
+
+.red {
+    color: #ff153d;
+}
+.Unique {
+    position: absolute;
+    
+}
+
+.in {
+    position: absolute;
+    left: 170px; 
+    top: 45px; 
+    
+}
+
+.text {
+    line-height: 21px;
+}
+
+.features {
+    background-color: white;
+    padding-bottom: 100px;
+}
+
+.Details {
+    background-color: #f2f2f2;
+    padding-bottom: 160px;
+}
+.det {
+    padding-bottom: 60px;
+    padding-top: 30px;
+}
+.Details .container .row .col-6 h2 {
+    padding-top: 140;
+    
+}
+
+.Details .container .row .col-6 h4 {
+    padding-bottom: 30px;
+}
+
+.features {
+    background-color: white;
+    padding-bottom: 100px;
+}           
+
+.Benefits {
+    background-color: white;
+    padding-bottom: 170px;
+}
+
+.Benefits .container .row .col-6 h2 {
+    padding-top: 160px;
+    
+}
+.Benefits .container .row .col-6 h4 {
+    padding-bottom: 20px;
+}
+ol {
+    padding-top: 5px;
+    list-style-position: inside;
+    margin-left: -40px;
+    padding-bottom: 40px;
+}
+
+li {
+    margin-top: 20px;
+    line-height: 24px;
+}
+
+.Products {
+    background-color: #f2f2f2;
+    padding-bottom: 100px;
+}
+
+.imgtext {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.color img {
+    margin-right: 8px;
+}
+
+ul li {
+    list-style-type: none; 
+}
+  ul {
+      text-align: center;
+      
+  }
+
+  .reviews .container .row .col-12 .colortext {
+    color: #ff153d;
+    background-image: url(img/13.png);
+  }
+
+  .reviews .container .row .col-12 h2 {
+    padding-top: 110px;
+  }
+
+  h3 {
+      padding-top: 25px;
+      padding-bottom: 15px;
+      font-size: 18px;
+  }
+
+  .reviews {
+      padding-bottom: 100px;
+      background-color: white;
+  }
+
+  .featured {
+    background-color: #f2f2f2;
+    padding-bottom: 100px;
+  }
+
+  .brends {
+margin-right: 85px;
+padding-top: 55px;
+  }
+
+  .subscribe .container .row .col-12 h2 {
+      padding-top: 110px;
+  }
+
+  .input-container {
+      padding-top: 60px;
+  }
+
+  .subscribe {
+    background-color: white;
+    padding-bottom: 100px;
+  }
+
+  .contacts {
+    background-color: #f3dde1;
+    padding-bottom: 100px;
+    background-image: url(img/Rectangle12.png);
+  }
+
+  .contacts .container .row .col-6 .logo {
+    padding-top: 175px;
+  }
+
+  .contacts .container .row .col-6 h2 {
+    padding-top: 145px;
+  }
+
+  .com1 {
+      padding-top: 30px;
+      
+  }
+
+  .com {
+      padding-top: 25px;
+      display: flex;
+      
+  }
+  .com2 {
+    padding-top: 25px;
+    display: flex;
+}
+
+.com div {
+    margin-right: 20px;
+}
+ 
+.info1 div {
+    margin-right: 30px;
+}
+
+.info2 div {
+    margin-right: 23px;
+}
+
+.info3 div {
+    margin-right: 20px;
+}
+
+.footer {
+    padding-top: 50px;
+}
+
+footer {
+    padding-bottom: 50px;
+}
