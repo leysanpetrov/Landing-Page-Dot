@@ -130,8 +130,19 @@ text-align: center;
 
 main {
     background-color: #f3dde1;
+    background-size: auto 550px;
+    background-image: url(img/Rectangle11.png);
+    background-repeat: no-repeat;
+    background-size: 784px 580px;
+    height: 580px;
     
-    
+}
+
+.intone {
+    margin-left: 84px;
+}
+
+.zero {
     
 }
 
@@ -139,7 +150,7 @@ main {
     font-size: 16px;
     line-height: 24px;
     font-style: regular;
-    padding-bottom: 38px;
+    margin-bottom: 38px;
 
 }
 
@@ -171,25 +182,26 @@ h2 {
     text-align: center; 
     font-size: 30px;
     font-weight: bold;
-    padding-top: 100px;
-    
   }
+
  .features .container .row .col-12 h2 {
-    padding-bottom: 90px;
+    margin-bottom: 90px;
  }
+
 h1 {
     font-size: 48px;
     font-weight: bold;
     text-transform: uppercase;
-    padding-top: 135px;
-    
-    
+    margin-top: 138px;
   } 
  
   h4 {
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding: 0;
   }
 
   .reviews {
@@ -199,8 +211,8 @@ h1 {
   .uppercase {
     text-transform: uppercase;
     font-size: 14px;
-    padding-top: 25px;
-    padding-bottom: 60px;
+    margin-top: 26px;
+    margin-bottom: 58px;
   }
 
   .center {
@@ -233,51 +245,55 @@ h1 {
 .color {
     text-align: center;
 }
-
+ 
 .colortext {
     color: #ff153d;
-    background-image: url(img/12.png);
 }
+
+span {
+    background-image: url(img/12.png);
+    background-size: 168px 50px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
 
 .red {
     color: #ff153d;
+    margin-top: 16px;
 }
 .Unique {
-    position: absolute;
-    
+    position: relative;
+    top: 80px;
 }
 
 .in {
     position: absolute;
-    left: 170px; 
-    top: 45px; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     
 }
 
 .text {
     line-height: 21px;
+    margin-top: 24px;
 }
 
 .features {
     background-color: white;
     padding-bottom: 100px;
+    padding-top: 110px;
 }
 
 .Details {
     background-color: #f2f2f2;
-    padding-bottom: 160px;
+    padding-bottom: 146px;
+    padding-top: 135px;
 }
 .det {
-    padding-bottom: 60px;
-    padding-top: 30px;
-}
-.Details .container .row .col-6 h2 {
-    padding-top: 140;
-    
-}
-
-.Details .container .row .col-6 h4 {
-    padding-bottom: 30px;
+    margin-bottom: 40px;
+    margin-top: 28px;
 }
 
 .features {
@@ -287,21 +303,15 @@ h1 {
 
 .Benefits {
     background-color: white;
-    padding-bottom: 170px;
+    padding-bottom: 150px;
+    padding-top: 156px;
 }
 
-.Benefits .container .row .col-6 h2 {
-    padding-top: 160px;
-    
-}
-.Benefits .container .row .col-6 h4 {
-    padding-bottom: 20px;
-}
 ol {
-    padding-top: 5px;
+   margin-top: 22px;
     list-style-position: inside;
     margin-left: -40px;
-    padding-bottom: 40px;
+    margin-bottom: 38px;
 }
 
 li {
@@ -312,11 +322,31 @@ li {
 .Products {
     background-color: #f2f2f2;
     padding-bottom: 100px;
+    padding-top: 110px;
+}
+
+.positionproduct {
+    position: relative;
+    
 }
 
 .imgtext {
     text-transform: uppercase;
     font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 110px;
+    margin-left: -100px;
+}
+
+.color {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 126px;
+    margin-left: -100px;
 }
 
 .color img {
@@ -341,9 +371,10 @@ ul li {
   }
 
   h3 {
-      padding-top: 25px;
-      padding-bottom: 15px;
+      
+      
       font-size: 18px;
+      
   }
 
   .reviews {
@@ -378,6 +409,8 @@ padding-top: 55px;
     background-color: #f3dde1;
     padding-bottom: 100px;
     background-image: url(img/Rectangle12.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
   }
 
   .contacts .container .row .col-6 .logo {
@@ -425,4 +458,13 @@ padding-top: 55px;
 
 footer {
     padding-bottom: 50px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
 }
