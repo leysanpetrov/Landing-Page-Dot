@@ -4,6 +4,35 @@ body {
     font-size: 16px;
 }
 
+body {
+    color: orange;
+  }
+
+  @media (min-width: 768px) {
+    body {
+      color: black;
+    }
+    h1 {
+        font-size: 10px;
+    }
+    
+  }
+
+  @media (min-width: 992px) {
+    body {
+      color: green;
+    }
+    
+  }
+
+  @media (min-width: 1200px) {
+    body {
+      color: blue;
+    }
+  
+  }
+
+  
 .container {
     width: 1170px; 
     margin-left: auto;
@@ -91,6 +120,7 @@ body {
 
 .header {
     display: flex;
+    
 }
 
  a {
@@ -123,19 +153,27 @@ text-align: center;
     box-sizing: border-box;
     text-transform: uppercase;
     font-weight: bold;
-    padding-top: 45px;
-    padding-bottom: 70px;
+    
+    
     
 }
 
 main {
     background-color: #f3dde1;
-    background-size: auto 550px;
+    position: relative;
+    height: 550px;
+}
+
+.back {
     background-image: url(img/Rectangle11.png);
     background-repeat: no-repeat;
-    background-size: 784px 580px;
+    background-size: 794px 580px;
     height: 580px;
+    width: 794px;
+    position: relative;
+    bottom: 79%;
     
+
 }
 
 .intone {
@@ -155,7 +193,7 @@ main {
 }
 
 .logo {
-    padding-top: 30px;
+    
     flex-grow: 1;
     padding-top: 1,5;
 }
@@ -175,6 +213,8 @@ main {
 
 header {
     display: flex;
+    padding-top: 45px;
+    padding-bottom: 70px;
   }
 
 h2 {
@@ -233,9 +273,11 @@ h1 {
 
 .contact {
     justify-content: flex-start;
-    padding-bottom: 30px;
+   
     padding-right: 85px;
     padding-left: 200px;
+    margin-top: 36px;
+    
 }
 
 .input {
@@ -252,7 +294,7 @@ h1 {
 
 span {
     background-image: url(img/12.png);
-    background-size: 168px 50px;
+    background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
@@ -385,6 +427,7 @@ ul li {
   .featured {
     background-color: #f2f2f2;
     padding-bottom: 100px;
+    padding-top: 114px;
   }
 
   .brends {
@@ -392,13 +435,12 @@ margin-right: 85px;
 padding-top: 55px;
   }
 
-  .subscribe .container .row .col-12 h2 {
+  .subscribe {
       padding-top: 110px;
+      padding-bottom: 100px;
   }
 
-  .input-container {
-      padding-top: 60px;
-  }
+  
 
   .subscribe {
     background-color: white;
@@ -408,18 +450,26 @@ padding-top: 55px;
   .contacts {
     background-color: #f3dde1;
     padding-bottom: 100px;
+    position: relative;
+    padding-top: 180px;
+  }
+
+  .back2 {
     background-image: url(img/Rectangle12.png);
+    background-size: 792px 580px;
+    height: 580px;
+    width: 792px;
     background-repeat: no-repeat;
-    background-position: right bottom;
+    
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    
   }
 
-  .contacts .container .row .col-6 .logo {
-    padding-top: 175px;
-  }
-
-  .contacts .container .row .col-6 h2 {
-    padding-top: 145px;
-  }
+  .logo2 {
+      margin-left: 105px;
+  } 
 
   .com1 {
       padding-top: 30px;
@@ -429,6 +479,7 @@ padding-top: 55px;
   .com {
       padding-top: 25px;
       display: flex;
+
       
   }
   .com2 {
@@ -467,4 +518,22 @@ p {
 
 h2 {
     margin: 0;
+}
+
+.ellipse2 {
+    border: 1px solid #fff; 
+    background: #ffbfcc; 
+    width: 43px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.logofooter {
+    color: white;
+    position: relative;
+    z-index: 5;
 }
