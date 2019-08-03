@@ -7,9 +7,6 @@ body {
 body {
     color: orange;
   }
-
- 
-
   
 .container {
     width: 100%; 
@@ -322,11 +319,8 @@ body {
     box-sizing: border-box;
 }
 
-
-
 .header {
     display: flex;
-    
 }
 
  a {
@@ -359,9 +353,8 @@ text-align: center;
     box-sizing: border-box;
     text-transform: uppercase;
     font-weight: bold;
-    
-    
-    
+    flex-wrap: wrap;
+
 }
 
 main {
@@ -374,21 +367,14 @@ main {
 .back {
     background-image: url(img/Rectangle11.png);
     background-repeat: no-repeat;
-    background-size: 784px 580px;
     height: 580px;
     width: 784px;
     position: relative;
     bottom: 78.5%;
-    
-
+    background-image: none;
 }
-
 .intone {
     margin-left: 84px;
-}
-
-.zero {
-    
 }
 
 .fonttext {
