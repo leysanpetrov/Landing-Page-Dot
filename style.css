@@ -2,11 +2,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: black;
     font-size: 16px;
+    overflow-x: hidden;
+    
 }
-
-body {
-    color: orange;
-  }
   
 .container {
     width: 100%; 
@@ -19,7 +17,7 @@ body {
     flex-wrap: wrap;
 }
 
-  .col-xs-1 {
+.col-xs-1 {
     flex-basis: 8.33333333333%;
     padding-left: 8px;
     padding-right: 8px;
@@ -321,6 +319,7 @@ body {
 
 .header {
     display: flex;
+    width: 100%;
 }
 
  a {
@@ -346,16 +345,20 @@ body {
 text-align: center;
 }
 
-  .menu {
-    display: flex;
-    font-size: 14px;
+.menu {
+    /*display: flex;
+    font-size: 14px;*/
     justify-content: space-between;
     box-sizing: border-box;
     text-transform: uppercase;
     font-weight: bold;
     flex-wrap: wrap;
-
+    font-size: 20px;
 }
+.featurees1 {
+    text-align: center;
+}
+
 
 main {
     background-color: #f3dde1;
@@ -373,6 +376,7 @@ main {
     bottom: 78.5%;
     background-image: none;
 }
+
 .intone {
     margin-left: 84px;
 }
@@ -382,13 +386,13 @@ main {
     line-height: 24px;
     font-style: regular;
     margin-bottom: 38px;
-
 }
 
-.logo {
-    
+.logo { 
     flex-grow: 1;
     padding-top: 1,5;
+    text-align: center;
+    
 }
 
 .color {
@@ -408,6 +412,7 @@ header {
     display: flex;
     padding-top: 45px;
     padding-bottom: 70px;
+    width: 100%;
   }
 
 h2 {
@@ -558,6 +563,7 @@ li {
     background-color: #f2f2f2;
     padding-bottom: 100px;
     padding-top: 110px;
+    
 }
 
 .positionproduct {
@@ -583,7 +589,9 @@ li {
     margin-top: 126px;
     margin-left: -100px;
 }
-
+img {
+    text-align: center;
+}
 .color img {
     margin-right: 8px;
 }
@@ -624,7 +632,7 @@ ul li {
   }
 
   .brends {
-margin-right: 85px;
+/*margin-right: 85px;*/
 padding-top: 55px;
   }
 
@@ -642,7 +650,7 @@ padding-top: 55px;
 
   .contacts {
     background-color: #f3dde1;
-    padding-bottom: 100px;
+    /*padding-bottom: 100px;*/
     position: relative;
     padding-top: 180px;
   }
@@ -657,11 +665,13 @@ padding-top: 55px;
     position: absolute;
     top: 0%;
     right: 0%;
+    background-image: none;
     
   }
 
   .logo2 {
       margin-left: 105px;
+      margin-bottom: 100px;
   } 
 
   .com1 {
@@ -728,6 +738,9 @@ h2 {
     color: white;
     position: relative;
     z-index: 5;
+    background-color: #ff153d;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 @media (min-width: 768px) {
@@ -756,6 +769,7 @@ h2 {
 
     .container {
         max-width: 540px;
+        
       }
     
     .col-sm-1 {
@@ -811,7 +825,7 @@ h2 {
 
   @media (min-width: 768px) {
 
-    container {
+    .container {
         max-width: 720px;
       }
     
@@ -925,6 +939,4 @@ h2 {
     }
   }
 
-  .col .col-xs-6 .zero {
-      display: none;
-  }
+  
